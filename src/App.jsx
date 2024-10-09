@@ -9,14 +9,14 @@ function App() {
 
   return (
     <>
-     {/* <BrowserRouter>
+     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/todo" element={<Todo />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
-      </BrowserRouter> */}
-      <Todo2 />
+      </BrowserRouter>
+      {/* <Todo2 /> */}
     </>
   )
 }
